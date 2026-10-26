@@ -29,8 +29,11 @@ La guía paso a paso, con capturas y video, está en La Bóveda del Club de Inmo
 
 ## Instalación (resumen)
 
-1. Copia este repositorio a tu GitHub (**Use this template** o **Fork**).
-2. En Vercel: **Add New → Project**, elige tu copia y, antes de **Deploy**, agrega las variables de `.env.example`.
+[![Instalar en Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fbillieprobst%2Ftu-oficina-ia&project-name=tu-oficina-ia&env=OFICINA_CLAVE,SECRETO_ENTRADA,CRON_SECRET,GEMINI_API_KEY,GOOGLE_SHEET_ID,GOOGLE_CUENTA_CORREO,GOOGLE_CUENTA_LLAVE,TELEGRAM_BOT_TOKEN&envDescription=Lo%20que%20necesita%20tu%20oficina.%20Cada%20variable%20est%C3%A1%20explicada%20en%20.env.example&envLink=https%3A%2F%2Fgithub.com%2Fbillieprobst%2Ftu-oficina-ia%2Fblob%2Fmain%2F.env.example)
+
+1. Toca **Instalar en Vercel**: copia este repositorio a tu GitHub y te pide las variables de `.env.example`.
+   (También puedes copiarlo con **Fork** y en Vercel elegir **Add New → Project**.)
+2. Si usas Claude u OpenAI en vez de Gemini, agrega `IA_PROVEEDOR` y tu clave en Vercel → Settings → Environment Variables.
 3. Comparte tu Google Sheets como **Editor** con el correo de tu cuenta de servicio.
 4. Entra a tu oficina con tu contraseña y abre **Configuración**:
    - **Preparar mi hoja**: crea las pestañas.
